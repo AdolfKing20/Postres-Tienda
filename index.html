@@ -23,8 +23,26 @@
         
       </div>
     </section>
-    <aside class="grid-de">
-      <h2>Your Cart (0)</h2>
+    <aside class="grid-de cart-container">
+      <h2>Your Cart <span id="contador">(0)</span></h2>
+
+      <ul class="cart-list" id="cart-list">
+        <!-- <li class="li-group">
+          <div class="tabla">
+            <h3>
+              Vanilla Bean Crème Brûlée
+            </h3>
+            <h4><span>1x</span> @ $5.50 <span class="price-total">$5.50</span></h4>
+          </div>
+          <button class="remove">x</button>
+        </li> -->
+
+      </ul>
+      <div class="price-group">
+        <h3>Order Total</h3>
+        <h4 id="total-price">$0</h4>
+      </div>
+      <button class="confirm-order">confirm order</button>
     </aside>
   </main>
 
