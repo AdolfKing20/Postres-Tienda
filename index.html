@@ -24,25 +24,24 @@
       </div>
     </section>
     <aside class="grid-de cart-container">
-      <h2>Your Cart <span id="contador">(0)</span></h2>
-
-      <ul class="cart-list" id="cart-list">
-        <!-- <li class="li-group">
-          <div class="tabla">
-            <h3>
-              Vanilla Bean Crème Brûlée
-            </h3>
-            <h4><span>1x</span> @ $5.50 <span class="price-total">$5.50</span></h4>
+      
+        <h2>Your Cart <span id="contador">(0)</span></h2>
+        <div id="opcion1" class="active">
+          <img src="/assets/images/illustration-empty-cart.svg" alt="">
+        </div>
+        <div id="opcion2" class="inactive">
+          <ul class="cart-list" id="cart-list">
+          </ul>
+          <div class="price-group">
+            <h3>Order Total</h3>
+            <h4 id="total-price">$0</h4>
           </div>
-          <button class="remove">x</button>
-        </li> -->
-
-      </ul>
-      <div class="price-group">
-        <h3>Order Total</h3>
-        <h4 id="total-price">$0</h4>
-      </div>
-      <button class="confirm-order">confirm order</button>
+          <div class="carbon-group">
+            <img src="/assets/images/icon-carbon-neutral.svg" alt="carbon neutral">
+            <h5>This is a <strong>carbon neutralca</strong> delivery</h5>
+          </div>
+          <button class="confirm-order">confirm order</button>
+        </div>
     </aside>
   </main>
 
@@ -52,6 +51,7 @@
     Coded by <a href="#">Your Name Here</a>.
   </div>
 
+  
 
   <script src="main.js"></script>
 </body>

@@ -138,7 +138,7 @@ main{
     color: var(--Rose-500);
 }
 
-.remove{
+/* .remove{
     display: flex;
     height: .2rem;
     width: .2rem;
@@ -148,6 +148,26 @@ main{
     border-radius: 999px;
     border: 1px solid var(--Rose-900);
     font-weight: bold;
+} */
+
+.remove{
+    border: 1px solid var(--Rose-100);
+    width: 100%;
+    max-width: 2rem;
+    height: 2rem;
+    border-radius: 999px;
+    
+    background: transparent;
+}
+.remove svg{
+    stroke: var(--Rose-100);
+    width: 15px;
+}
+.remove:hover{
+    border: 1px solid var(--Rose-400);
+}
+.remove svg:hover{
+    stroke: 2px var(--Rose-400);
 }
 li{
     list-style: none;
@@ -174,6 +194,16 @@ button{
     cursor: pointer;
 }
 
+.carbon-group{
+    display: flex;
+    width: 100%;
+    gap: .5rem;
+    padding: 1.5rem 1rem;
+    background: #fcf8f8;
+    margin: 1rem 0;
+    border-radius: 10px;
+    font-weight: 100;
+}
 .confirm-order{
     background: var(--Red);
     border: none;
@@ -182,6 +212,14 @@ button{
     border-radius: 9999px;
     color: white;
     width: 100%;
+}
+
+
+.active{
+    display: block;
+}
+.inactive{
+    display: none;
 }
 
 @media screen and (max-width: 826px){
